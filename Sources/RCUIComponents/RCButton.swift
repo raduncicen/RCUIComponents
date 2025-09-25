@@ -5,7 +5,9 @@
 //  Created by Radun Çiçen on 25.09.2025.
 //
 
-public struct RCButtonTheme {
+import SwiftUI
+
+public struct RCButtonTheme: Sendable {
     public let titleColor: Color
     public let disabledTitleColor: Color
     public let backgroundColor: Color
@@ -175,7 +177,7 @@ fileprivate extension RCButtonTheme {
         titleColor: .white,
         disabledTitleColor: .red,
         backgroundColor: .blue,
-        disabledBackgroundColor: .lightGray,
+        disabledBackgroundColor: .gray,
         height: 54,
         cornerRadius: 8,
         borderWidth: 1,
